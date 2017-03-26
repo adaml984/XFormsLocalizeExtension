@@ -1,0 +1,14 @@
+# Build and Release Folders
+bin/
+obj/
+bin/debug/
+bin/release/
+packages/
+
+# Other files and folders
+.settings/
+
+# Executables
+*.nupkg
+*.apk
+

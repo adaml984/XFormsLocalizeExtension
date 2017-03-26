@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SampleApp"
+             xmlns:xfl="clr-namespace:XFormsLocalizeExtension.MarkupExtensions;assembly=XFormsLocalizeExtension"
+             x:Class="SampleApp.MainPage">
+
+	<Label Text="{xfl:XFormsLocalizeExtension SampleApp.Resx.MainPageLocale:HelloWorldResx}" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+</ContentPage>

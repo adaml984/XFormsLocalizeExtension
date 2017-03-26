@@ -1,0 +1,1 @@
+..\nuget\nuget.exe pack XFormsLocalizeExtension.csproj -ForceEnglishOutput

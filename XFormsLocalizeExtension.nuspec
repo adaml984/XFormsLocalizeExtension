@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>XFormsLocalizeExtension</id>
+    <version>1.0.4</version>
+    <title>$title$</title>
+    <authors>Adam Łamarz[adaml984]</authors>
+    <owners>Adam Łamarz[adaml984]</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/adaml984/XFormsLocalizeExtension</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Small library for Xamarin.Forms apps localisation, supporting multiple resource dictionaries as well as multiple PCL's</description>
+    <releaseNotes>Minor changes/refactoring.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Xamarin Xamarin.Forms Locale Localisation</tags>
+  </metadata><files>
+	<file src="XFormsLocalizeExtension\bin\Release\XFormsLocalizeExtension.dll" target="lib" />
+	<file src="XFormsLocalizeExtension.Android\bin\Release\XFormsLocalizeExtension.Android.dll" target="lib\MonoAndroid500" />
+	<file src="XFormsLocalizeExtension.iOS\bin\Release\XFormsLocalizeExtension.iOS.dll" target="lib\Xamarin.iOS10" />
+	<file src="XFormsLocalizeExtension.UWP\bin\Release\XFormsLocalizeExtension.UWP.dll" target="lib\UAP10" />
+  </files>
+</package>
