@@ -16053,11 +16053,11 @@
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "D:\\!projekty\\XFormsLocalizeExtension\\SampleApps\\SampleApp\\SampleApp.csproj": {
-              "projectPath": "D:\\!projekty\\XFormsLocalizeExtension\\SampleApps\\SampleApp\\SampleApp.csproj"
-            },
             "D:\\!projekty\\XFormsLocalizeExtension\\XFormsLocalizeExtension.UWP\\XFormsLocalizeExtension.UWP.csproj": {
               "projectPath": "D:\\!projekty\\XFormsLocalizeExtension\\XFormsLocalizeExtension.UWP\\XFormsLocalizeExtension.UWP.csproj"
+            },
+            "D:\\!projekty\\XFormsLocalizeExtension\\SampleApps\\SampleApp\\SampleApp.csproj": {
+              "projectPath": "D:\\!projekty\\XFormsLocalizeExtension\\SampleApps\\SampleApp\\SampleApp.csproj"
             }
           }
         }
