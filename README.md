@@ -13,16 +13,16 @@ HOW TO:
 		and so on
 4. Create sample page in Your PCL:
 	
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SampleApp"
              xmlns:xfl="clr-namespace:XFormsLocalizeExtension.MarkupExtensions;assembly=XFormsLocalizeExtension"
              x:Class="SampleApp.MainPage">
 
-	<Label Text="{xfl:XFormsLocalizeExtension SampleApp.Resx.MainPageLocale:HelloWorldResx}" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+		<Label Text="{xfl:XFormsLocalizeExtension SampleApp.Resx.MainPageLocale:HelloWorldResx}" 
+           	       VerticalOptions="Center" 
+           	       HorizontalOptions="Center" />
 
-</ContentPage>
+		</ContentPage>
 	
 5. That's all, enjoy Your localized application:)
