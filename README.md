@@ -4,7 +4,7 @@ HOW TO:
 
 1. Install-Package XFormsLocalizeExtension via nuget, make sure that platform assemblies (i.e. XFormsLocalizeExtension.Android) are referenced.
 2. Create resource directory under PCL project, i.e. Resx.
-3. Create necesary resource files (*.resx) under resource directory.
+3. Create necessary resource files (*.resx) under resource directory.
 	- one for default localization
 		MainPageLocale.resx
 	- and for other languages
