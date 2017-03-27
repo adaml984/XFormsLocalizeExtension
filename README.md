@@ -1,8 +1,8 @@
-# XFormsLocalizeExtension
+# Xamarin.Forms Localization Library
 
 HOW TO:
 
-1. Install-Package XFormsLocalizeExtension via nuget, make sure that platform assemblies (i.e. XFormsLocalizeExtension.Android) are referenced.
+1. Install-Package Xamarin.Forms.Localization.Library via nuget, make sure that platform assemblies (i.e. XFormsLocalizeExtension.Android) are referenced.
 2. Create resource directory under PCL project, i.e. Resx.
 3. Create necessary resource files (*.resx) under resource directory.
 	- one for default localization
